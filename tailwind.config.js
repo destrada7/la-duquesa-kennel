@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'sans': ['Montserrat', 'ui-sans-serif', 'system-ui'],
+      },
       gridTemplateRows: {
         // Define the rows for the header, main content, and footer
         'layout': 'auto 1fr auto',
@@ -12,6 +15,9 @@ module.exports = {
       gridTemplateColumns: {
         // Define the columns for the sidebar and main content
         'layout': '250px 1fr',
+      },
+      fontSize: {
+        '3xl': '3rem', // Custom font size
       },
     },
   },
