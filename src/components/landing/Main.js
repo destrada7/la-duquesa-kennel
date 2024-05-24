@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import mainlogo from "../../images/CRIADEROLADUQUESAKENNEL.png";
+import whatsappicon from "../../icons/icons8-whatsapp-70.png";
 import video1 from "../../videos/1.mp4";
 import video2 from "../../videos/2.mp4";
 import video3 from "../../videos/3.mp4";
@@ -46,7 +47,7 @@ const Main = () => {
             </div>
             <div className="relative z-10 text-center"> {/* Added text-center class here */}
                 <figure className="flex justify-center">
-                    <img
+                    <img className="object-cover"
                         src={mainlogo}
                         alt="main logo"
                     />
@@ -56,6 +57,9 @@ const Main = () => {
                     <p>¡Encuentra la mascota que tanto anhelabas!</p>
                 </div>
             </div>
+            <figure className="object-cover absolute bottom-8 right-8  transform translate-x-0 translate-y-0 hover:cursor-pointer hover:-translate-y-2 transition duration-300 ease-in-out">
+                <img src={whatsappicon} alt="whatsapp icon" />
+            </figure>
         </main>
     );
 };
