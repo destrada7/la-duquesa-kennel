@@ -1,6 +1,7 @@
 import React from "react";
-import logo from "../../images/round-logo.jpg";
+import logo from "../../images/logos/round-logo.jpg";
 import carticon from "../../icons/icons8-cart-50.png";
+import "../../styles/styles.css";
 
 const Header = () => {
     return(
@@ -13,7 +14,7 @@ const Header = () => {
                         alt="logo"
                         className="rounded-full w-12 h-12"/>
                     </figure>
-                    <h1 className="ml-4 text-2xl font-bold">La Duquesa Kennel</h1>
+                    <h1 className="ml-4 h1 font-bold">La Duquesa Kennel</h1>
                 </div>
             </div>
             <figure className="row-span-1 col-start-12">

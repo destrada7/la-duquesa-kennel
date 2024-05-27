@@ -15,10 +15,7 @@ module.exports = {
       gridTemplateColumns: {
         // Define the columns for the sidebar and main content
         'layout': '250px 1fr',
-      },
-      fontSize: {
-        '3xl': '3rem', // Custom font size
-      },
+      }
     },
   },
   plugins: [],

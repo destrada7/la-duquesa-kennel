@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../../images/round-logo.jpg";
+import footerlogo from "../../images/logos/round-logo.jpg";
 import mailicon from "../../icons/icons8-gmail-50.png";
 import phoneicon from "../../icons/icons8-phone-50.png";
 import locationicon from "../../icons/icons8-location-50.png";
