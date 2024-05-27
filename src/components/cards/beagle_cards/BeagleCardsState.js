@@ -1,10 +1,10 @@
 import React from "react";
-import FrenchBdCards from "./FrenchBdCards";
+import BeagleCards from "./BeagleCards";
 import "../../styles/styles.css";
 
 
-const FrenchBdCardsState = () => {
-    const frenchbds = [
+const BeagleCardsState = () => {
+    const beagles = [
         {
             dogimage: "",
             dogbreed: "Bulldog Francés",
@@ -89,11 +89,11 @@ const FrenchBdCardsState = () => {
 
     return (
         <div className="flex gap-4">
-            {frenchbds.map((frenchbd, index) => (
-                <FrenchBdCards key={index} frenchbd={frenchbd} />
+            {beagles.map((beagle, index) => (
+                <BeagleCards key={index} beagle={beagle} />
             ))}
         </div>
     );
 };
 
-export default FrenchBdCardsState;
+export default BeagleCardsState;

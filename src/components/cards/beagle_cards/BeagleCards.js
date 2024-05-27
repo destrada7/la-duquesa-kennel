@@ -1,8 +1,8 @@
 import React from "react";
 import "../../styles/styles.css";
 
-const FrenchBdCards = ({ frenchbd }) => {
-    const { dogimage, dogbreed, dogage, doggender, dogprice, dogdescription } = frenchbd;
+const BeagleCards = ({ beagle }) => {
+    const { dogimage, dogbreed, dogage, doggender, dogprice, dogdescription } = beagle;
 
     return (
         <div className="dog-container">
@@ -20,4 +20,4 @@ const FrenchBdCards = ({ frenchbd }) => {
     );
 };
 
-export default FrenchBdCards;
+export default BeagleCards;
