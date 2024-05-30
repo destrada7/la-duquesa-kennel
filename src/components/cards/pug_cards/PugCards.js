@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/styles.css";
 
 const PugCards = ({ pug }) => {
-    const { dogimage, dogbreed, dogage, doggender, dogprice, dogdescription } = pug;
+    const { dogimage, dogbreed, dogage, doggender, dogprice } = pug;
 
     return (
         <div className="dog-container">
@@ -13,7 +13,6 @@ const PugCards = ({ pug }) => {
                 <h3 className="text-lg font-semibold">{dogbreed}</h3>
                 <p>{dogage}</p>
                 <p>{doggender}</p>
-                <p>{dogdescription}</p>
                 <h4 className="text-lg font-bold">{dogprice}</h4>
             </figcaption>
         </div>

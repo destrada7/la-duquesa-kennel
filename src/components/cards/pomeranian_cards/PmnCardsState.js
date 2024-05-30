@@ -1,90 +1,46 @@
 import React from "react";
 import PmnCards from "./PmnCards";
+import BreedImages from "../../dogs-images_storage/BreedImages";
 import "../../styles/styles.css";
 
 
 const PmnCardsState = () => {
     const pomeranians = [
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogimage: BreedImages.pomerania[0],
+            dogbreed: "Pomerania",
+            dogage: "2 meses",
+            doggender: "Macho",
+            dogprice: "$13.000.000"
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogimage: BreedImages.pomerania[1],
+            dogbreed: "Pomerania",
+            dogage: "2 meses",
+            doggender: "Macho",
+            dogprice: "$7.300.000"
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogimage: BreedImages.pomerania[2],
+            dogbreed: "Pomerania",
+            dogage: "2 meses",
+            doggender: "Macho",
+            dogprice: "$2.600.000"
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
+            dogimage: BreedImages.pomerania[3],
+            dogbreed: "Pomerania",
+            dogage: "2 meses",
             doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogprice: "$2.700.000"
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
+            dogimage: BreedImages.pomerania[4],
+            dogbreed: "Pomerania",
+            dogage: "2 meses",
             doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogprice: "$2.950.000"
         },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        }
     ];
 
     return (
