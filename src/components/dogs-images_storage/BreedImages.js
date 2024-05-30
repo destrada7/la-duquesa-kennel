@@ -54,7 +54,6 @@ const BreedImages = {
         require("../../images/dogs/shihtzu/stzu_2.jpg"),
         require("../../images/dogs/shihtzu/stzu_3.jpg"),
         require("../../images/dogs/shihtzu/stzu_4.jpg"),
-        require("../../images/dogs/shihtzu/stzu_5.jpg"),
 
     ],
     beagle: [
