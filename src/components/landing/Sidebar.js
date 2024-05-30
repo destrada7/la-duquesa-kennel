@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import "../../styles/styles.css";
 
 const Sidebar = () => {
@@ -6,7 +7,6 @@ const Sidebar = () => {
     const handleDropdownClick = (dropdown) => {
         setOpenDropdown(openDropdown === dropdown ? null : dropdown);
     };
-
 
     return(
         <aside className="bg-dark-gray p-4 w-full h-full text-white">
@@ -23,15 +23,15 @@ const Sidebar = () => {
                         </button>
                         {openDropdown === 'raza' && (
                             <ul className="flex flex-col gap-2 text-left pl-2 text-yellow">
-                                <li>Bulldog Fránces</li>
-                                <li>Bulldog Inglés</li>
-                                <li>Dálmata</li>
-                                <li>Boston Terrier</li>
-                                <li>Doberman</li>
-                                <li>Shih Tzu</li>
-                                <li>Beagle</li>
-                                <li>Pug</li>
-                                <li>Pomerania</li>
+                                <li><Link to="/bulldog_frances">Bulldog Fránces</Link></li>
+                                <li><Link to="/bulldog_ingles">Bulldog Inglés</Link></li>
+                                <li><Link to="/dalmata">Dálmata</Link></li>
+                                <li><Link to="/boston_terrier">Boston Terrier</Link></li>
+                                <li><Link to="/doberman">Doberman</Link></li>
+                                <li><Link to="/shih_tzu">Shih Tzu</Link></li>
+                                <li><Link to="/beagle">Beagle</Link></li>
+                                <li><Link to="/pug">Pug</Link></li>
+                                <li><Link to="/pomerania">Pomerania</Link></li>
                             </ul>
                         )}
                     </div>
@@ -45,8 +45,8 @@ const Sidebar = () => {
                         </button>
                         {openDropdown === 'genero' && (
                             <ul className="flex flex-col gap-2 text-left pl-2 text-yellow">
-                                <li>Macho</li>
-                                <li>hembra</li>
+                                <li><Link to="/machos">Macho</Link></li>
+                                <li><Link to="/hembras">Hembra</Link></li>
                             </ul>
                         )}
                     </div>
@@ -60,9 +60,9 @@ const Sidebar = () => {
                         </button>
                         {openDropdown === 'edad' && (
                             <ul className="flex flex-col gap-2 text-left pl-2 text-yellow">
-                                <li>Menos de 2 meses</li>
-                                <li>2 a 9 semanas</li>
-                                <li>10 a 44 meses</li>
+                                <li><Link to="/edad_1">Menos de 2 meses</Link></li>
+                                <li><Link to="/edad_2">2 a 9 semanas</Link></li>
+                                <li><Link to="/edad_3">10 a 44 meses</Link></li>
                             </ul>
                         )}
                     </div>
@@ -76,9 +76,9 @@ const Sidebar = () => {
                         </button>
                         {openDropdown === 'precio' && (
                             <ul className="flex flex-col gap-2 text-left pl-2 text-yellow">
-                                <li>Hasta $2.500.000</li>
-                                <li>Desde $2.500.000 a $4.000.000</li>
-                                <li>Más de $4.000.000</li>
+                                <li><Link to="/precio_1">Hasta $2.500.000</Link></li>
+                                <li><Link to="/precio_2">Desde $2.500.000 a $4.000.000</Link></li>
+                                <li><Link to="/precio_3">Más de $4.000.000</Link></li>
                             </ul>
                         )}
                     </div>

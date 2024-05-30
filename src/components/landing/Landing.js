@@ -23,44 +23,45 @@ import Age2Page from "../age_2/Age2Page";
 import Age3Page from "../age_3/Age3Page";
 
 const Landing = () => {
-    return(
-    <Router>
-        <div className="grid grid-rows-layout grid-cols-12 min-h-screen">
-            <div className="row-span-1 col-span-full">
-                <Header />
-            </div>
+    return (
+        <Router>
+            <div className="grid grid-rows-layout grid-cols-12 min-h-screen">
+                <div className="row-span-1 col-span-full">
+                    <Header />
+                </div>
 
-            <div className="row-span-2 col-start-1 col-end-3">
-                <Sidebar />
+                <div className="row-span-2 col-start-1 col-end-3">
+                    <Sidebar />
+                </div>
+
+                <div className="row-span-2 col-start-3 col-end-13">
+                    <Routes>
+                        <Route path="/" element={<Main />} />
+                        <Route path="/bulldog_frances" element={<FrenchBdPage />} />
+                        <Route path="/bulldog_ingles" element={<EnglishBdPage />} />
+                        <Route path="/dalmata" element={<DalmatianPage />} />
+                        <Route path="/boston_terrier" element={<BostonPage />} />
+                        <Route path="/doberman" element={<DobermanPage />} />
+                        <Route path="/shih_tzu" element={<ShihTzuPage />} />
+                        <Route path="/beagle" element={<BeaglePage />} />
+                        <Route path="/pug" element={<PugPage />} />
+                        <Route path="/pomerania" element={<PomeranianPage />} />
+                        <Route path="/machos" element={<MalePage />} />
+                        <Route path="/hembras" element={<FemalePage />} />
+                        <Route path="/edad_1" element={<Age1Page />} />
+                        <Route path="/edad_2" element={<Age2Page />} />
+                        <Route path="/edad_3" element={<Age3Page />} />
+                        <Route path="/precio_1" element={<Price1Page />} />
+                        <Route path="/precio_2" element={<Price2Page />} />
+                        <Route path="/precio_3" element={<Price3Page />} />
+                    </Routes>
+                </div>
+
+                <div className="row-span-1 col-span-full">
+                    <Footer />
+                </div>
             </div>
-            <Routes>
-                <Route path="/bulldog_frances" element={FrenchBdPage} />
-                <Route path="/bulldog_ingles" element={EnglishBdPage} />
-                <Route path="/dalmata" element={DalmatianPage} />
-                <Route path="/boston_terrier" element={BostonPage} />
-                <Route path="/doberman" element={DobermanPage} />
-                <Route path="/shih_tzu" element={ShihTzuPage} />
-                <Route path="/beagle" element={BeaglePage} />
-                <Route path="/pug" element={PugPage} />
-                <Route path="/pomerania" element={PomeranianPage} />
-                <Route path="/machos" element={MalePage} />
-                <Route path="/hembras" element={FemalePage} />
-                <Route path="/edad_1" element={Age1Page} />
-                <Route path="/edad_2" element={Age2Page} />
-                <Route path="/edad_3" element={Age3Page} />
-                <Route path="/hembras" element={FemalePage} />
-                <Route path="/precio_1" element={Price1Page} />
-                <Route path="/precio_2" element={Price2Page} />
-                <Route path="/precio_3" element={Price3Page} />
-            </Routes>
-            <div className="row-span-2 col-start-3 col-end-13">
-                <Main />
-            </div>
-            <div className="row-span-1 col-span-full">
-                <Footer />
-            </div>
-        </div>
-    </Router>
+        </Router>
     );
 };
 
