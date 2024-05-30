@@ -1,89 +1,58 @@
 import React from "react";
 import BeagleCards from "./BeagleCards";
+import BreedImages from "../../dogs-images_storage/BreedImages";
 import "../../styles/styles.css";
 
 
 const BeagleCardsState = () => {
     const beagles = [
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogimage: BreedImages.beagle[0],
+            dogbreed: "Beagle",
+            dogage: "2 meses",
+            doggender: "Macho",
+            dogprice: "$2.116.800",
+
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
+            dogimage: BreedImages.beagle[1],
+            dogbreed: "Beagle",
+            dogage: "2 meses",
             doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogprice: "$1.600.000",
+
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
+            dogimage: BreedImages.beagle[2],
+            dogbreed: "Beagle",
+            dogage: "2 meses",
             doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogprice: "$1.400.000",
+
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
+            dogimage: BreedImages.beagle[3],
+            dogbreed: "Beagle",
+            dogage: "2 meses",
             doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogprice: "$2.116.800",
+
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogimage: BreedImages.beagle[4],
+            dogbreed: "Beagle",
+            dogage: "2 meses",
+            doggender: "hembra",
+            dogprice: "$1.764.000",
+
         },
         {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
+            dogimage: BreedImages.beagle[5],
+            dogbreed: "Beagle",
+            dogage: "2 meses",
             doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
-        },
-        {
-            dogimage: "",
-            dogbreed: "Bulldog Francés",
-            dogage: "2 años",
-            doggender: "Hembra",
-            dogprice: "",
-            dogdescription: ""
+            dogprice: "$3.000.000",
+
         }
     ];
 

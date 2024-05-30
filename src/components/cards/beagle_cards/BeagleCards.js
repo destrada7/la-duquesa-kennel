@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/styles.css";
 
 const BeagleCards = ({ beagle }) => {
-    const { dogimage, dogbreed, dogage, doggender, dogprice, dogdescription } = beagle;
+    const { dogimage, dogbreed, dogage, doggender, dogprice } = beagle;
 
     return (
         <div className="dog-container">
@@ -13,7 +13,6 @@ const BeagleCards = ({ beagle }) => {
                 <h3 className="text-lg font-semibold">{dogbreed}</h3>
                 <p>{dogage}</p>
                 <p>{doggender}</p>
-                <p>{dogdescription}</p>
                 <h4 className="text-lg font-bold">{dogprice}</h4>
             </figcaption>
         </div>
