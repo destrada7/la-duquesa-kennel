@@ -2,7 +2,7 @@ import React from "react";
 import "../../styles/styles.css";
 
 const EnBdCards = ({ englishbd }) => {
-    const { dogimage, dogbreed, dogage, doggender, dogprice, dogdescription } = englishbd;
+    const { dogimage, dogbreed, dogage, doggender, dogprice } = englishbd;
 
     return (
         <div className="dog-container">
@@ -13,7 +13,6 @@ const EnBdCards = ({ englishbd }) => {
                 <h3 className="text-lg font-semibold">{dogbreed}</h3>
                 <p>{dogage}</p>
                 <p>{doggender}</p>
-                <p>{dogdescription}</p>
                 <h4 className="text-lg font-bold">{dogprice}</h4>
             </figcaption>
         </div>
