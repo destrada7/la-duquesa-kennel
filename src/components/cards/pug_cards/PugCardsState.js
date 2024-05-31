@@ -1,7 +1,7 @@
 import React from "react";
 import PugCards from "./PugCards";
 import BreedImages from "../../dogs-images_storage/BreedImages";
-import "../../styles/styles.css";
+import "../../../styles/styles.css";
 
 
 const PmnCardsState = () => {

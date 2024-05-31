@@ -1,7 +1,7 @@
 import React from "react";
 import BeagleCards from "./BeagleCards";
 import BreedImages from "../../dogs-images_storage/BreedImages";
-import "../../styles/styles.css";
+import "../../../styles/styles.css";
 
 
 const BeagleCardsState = () => {

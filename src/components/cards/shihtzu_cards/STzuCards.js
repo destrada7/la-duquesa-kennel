@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/styles.css";
+import "../../../styles/styles.css";
 
 const STzuCards = ({ shihtzu }) => {
     const { dogimage, dogbreed, dogage, doggender, dogprice } = shihtzu;
