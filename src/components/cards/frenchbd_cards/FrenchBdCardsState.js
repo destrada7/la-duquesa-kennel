@@ -79,7 +79,7 @@ const FrenchBdCardsState = () => {
     ];
 
     return (
-        <div className="flex gap-4">
+        <div className="flex flex-row justify-start flex-wrap ml-12 gap-4">
             {frenchbds.map((frenchbd, index) => (
                 <FrenchBdCards key={index} frenchbd={frenchbd} />
             ))}

@@ -17,6 +17,18 @@
 .p {
     font-size: 1.2rem;}
 
+.after-h2::after {
+    content: "";
+    display: block;
+    width: 3rem;
+    height: .5rem;
+    border-radius: .5rem;
+    margin-top: .5rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e8a01a;
+}
+
 .bg-gray {
     background-color: #262626;
 }
@@ -25,16 +37,25 @@
     background-color: #1f1f1e;
 }
 
+.bg-contrast-gray {
+    background-color: #333332;
+}
+
 .text-yellow {
     color: #e8a01a;
 }
 
-.dog_container {
+.dog-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: auto;
-    border: #e8a01a solid .5rem;
-    border-radius: 1rem;
+    width: 20rem;
+    height: 30rem;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
 
+.dog-container:hover {
+    transform: translateY(-10px);
 }
