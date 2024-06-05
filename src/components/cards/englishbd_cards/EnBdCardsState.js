@@ -79,7 +79,7 @@ const EnBdCardsState = () => {
     ];
 
     return (
-        <div className="flex gap-4">
+        <div className="flex flex-row justify-start flex-wrap ml-12 gap-4">
             {englishbds.map((englishbd, index) => (
                 <EnBdCards key={index} englishbd={englishbd} />
             ))}

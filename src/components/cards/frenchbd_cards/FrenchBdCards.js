@@ -7,7 +7,7 @@ const FrenchBdCards = ({ frenchbd }) => {
     return (
         <div className="dog-container">
             <figure className="flex w-full h-80 object-cover">
-                <img src={dogimage} alt={dogbreed} className=" w-full h-auto object-cover rounded-lg"/>
+                <img src={dogimage} alt={dogbreed} className="w-full h-auto object-cover rounded-lg"/>
             </figure>
             <figcaption className="flex flex-col flex-grow align-center
             justify-center mt-2">

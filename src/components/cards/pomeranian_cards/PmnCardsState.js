@@ -44,7 +44,7 @@ const PmnCardsState = () => {
     ];
 
     return (
-        <div className="flex gap-4">
+        <div className="flex flex-row justify-start flex-wrap ml-12 gap-4">
             {pomeranians.map((pomeranian, index) => (
                 <PmnCards key={index} pomeranian={pomeranian} />
             ))}
